@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Salarix.Core\Salarix.Core.csproj" />
+    <ProjectReference Include="..\Salarix.Data\Salarix.Data.csproj" />
+    <ProjectReference Include="..\Salarix.Dto\Salarix.Dto.csproj" />
+  </ItemGroup>
+
+</Project>
