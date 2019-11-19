@@ -37,7 +37,7 @@ namespace Salarix.Core.Bussines.Services
             return Map(employee);
         }
 
-        /// Is a real scenario i'll replace this with AutoMapper.
+        /// In a real scenario i'll replace this with AutoMapper.
         private EmployeeDto Map(Employee employee)
         {
             var employeeDto = new EmployeeDto
