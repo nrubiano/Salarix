@@ -3,17 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29424.173
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Host.Frontend", "Salarix.Host.Frontend\Salarix.Host.Frontend.csproj", "{45012044-682B-4B9E-BAB9-6AA9FABA14F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Host.Frontend", "Salarix.Host.Frontend\Salarix.Host.Frontend.csproj", "{45012044-682B-4B9E-BAB9-6AA9FABA14F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Core", "Salarix.Core\Salarix.Core.csproj", "{E62EA961-65A3-41CF-B779-5104117F5362}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Core", "Salarix.Core\Salarix.Core.csproj", "{E62EA961-65A3-41CF-B779-5104117F5362}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Data", "Salarix.Data\Salarix.Data.csproj", "{AD9FAFEE-138D-4876-B1B1-153AC357E223}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Data", "Salarix.Data\Salarix.Data.csproj", "{AD9FAFEE-138D-4876-B1B1-153AC357E223}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Dto", "Salarix.Dto\Salarix.Dto.csproj", "{74665391-DF8B-4B84-BBBA-F376F08C9E4D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Dto", "Salarix.Dto\Salarix.Dto.csproj", "{74665391-DF8B-4B84-BBBA-F376F08C9E4D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Host.Backend", "Salarix.Host.Backend\Salarix.Host.Backend.csproj", "{5CECAF46-A037-40F3-BB05-257B7FC53566}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Host.Backend", "Salarix.Host.Backend\Salarix.Host.Backend.csproj", "{5CECAF46-A037-40F3-BB05-257B7FC53566}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Core.Bussines", "Salarix.Core.Bussines\Salarix.Core.Bussines.csproj", "{98986E8D-E195-4631-BE35-12152FA227D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Salarix.Core.Bussines", "Salarix.Core.Bussines\Salarix.Core.Bussines.csproj", "{98986E8D-E195-4631-BE35-12152FA227D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Salarix.Core.Bussines.Test", "Salarix.Core.Bussines.Test\Salarix.Core.Bussines.Test.csproj", "{77E610DE-A318-46D0-A441-FE359A85F137}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{98986E8D-E195-4631-BE35-12152FA227D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{98986E8D-E195-4631-BE35-12152FA227D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{98986E8D-E195-4631-BE35-12152FA227D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E610DE-A318-46D0-A441-FE359A85F137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E610DE-A318-46D0-A441-FE359A85F137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E610DE-A318-46D0-A441-FE359A85F137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E610DE-A318-46D0-A441-FE359A85F137}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
