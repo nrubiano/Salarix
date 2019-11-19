@@ -21,3 +21,7 @@ http://localhost:59243/api/employees/1
 
 
 
+Stack:
+
+Asp.Net Core 2.2
+Angular 6.1.10
