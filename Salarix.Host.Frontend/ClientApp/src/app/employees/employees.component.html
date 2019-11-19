@@ -1,0 +1,31 @@
+<h1>Employees</h1>
+
+<p *ngIf="loading"><em>Loading...</em></p>
+
+<div class="form-row align-items-center">
+  <div class="col-sm-3 my-1">
+    <input type="text" class="form-control" placeholder="Employee Id" [(ngModel)]="employeeId"/>
+  </div>
+  <div class="col-auto my-1">
+    <button class="btn btn-primary" (click)="getEmployees()">Get Employees</button>
+  </div>
+</div>
+
+<table class='table table-striped' *ngIf="employees">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Role</th>
+      <th>Annual Salary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees">
+      <td>{{ employee.id }}</td>
+      <td>{{ employee.name }}</td>
+      <td>{{ employee.role.name }}</td>
+      <td>{{ employee.annualSalary | currency }}</td>
+    </tr>
+  </tbody>
+</table>
