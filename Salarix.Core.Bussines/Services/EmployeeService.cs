@@ -43,6 +43,7 @@ namespace Salarix.Core.Bussines.Services
             var employeeDto = new EmployeeDto
             {
                 Id = employee.Id, 
+                Name = employee.Name,
                 ContractType = employee.ContractTypeName
             };
 
